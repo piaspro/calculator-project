@@ -1,0 +1,89 @@
+body{
+    background-image: url("background.png");
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cal-body{
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    background-image: linear-gradient( gray, rgb(26, 148, 87));
+}
+.number{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(4, 167, 131);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: rgb(68, 170, 148);
+}
+.operators{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.back-btn, .clear-btn{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(252, 95, 95);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.clear-btn:hover{
+    background-color: rgb(252, 126, 126);
+}
+.back-btn:hover{
+    background-color: rgb(252, 126, 126);
+}
+#number0{
+    background-color: rgb(4, 167, 131);
+    color: white;
+    height: 50px;
+    width: 110px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#number0:hover{
+    background-color: rgb(68, 170, 148);
+}
+#equal{
+    background-color: tomato;
+    color: white;
+    height: 110px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#input{
+    height: 50px;
+    width: 295px;
+    margin:20px 0px 20px 10px ;
+    font-size: 40px;
+    text-align: right;
+}
