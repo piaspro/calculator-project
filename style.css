@@ -38,6 +38,9 @@ body{
     border-radius: 20%;
     cursor: pointer;
 }
+.operators:hover{
+    background-color: rgb(179, 177, 177);
+}
 .back-btn, .clear-btn{
     height: 50px;
     width: 50px;
@@ -79,6 +82,9 @@ body{
     font-size: larger;
     font-weight: bolder;
     cursor: pointer;
+}
+#equal:hover{
+    background-color: rgb(253, 145, 125);
 }
 #input{
     height: 50px;
